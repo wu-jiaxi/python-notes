@@ -118,7 +118,7 @@ write_report(dictionary, '/home/<username>/data/report.txt')
 print(dictionary)
 print(employee_list)
 
-#Look through a csv file, go through the entries and replace the last letters of the email to a new one
+#Look through a csv file, go through the entries and replace the last letters of the email to a new one with regex
 #!/usr/bin/env python3
 
 import re
